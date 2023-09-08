@@ -23,5 +23,9 @@ namespace SpotifyApp
             this.times = times;
         }
 
+        public static implicit operator Song(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
